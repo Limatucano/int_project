@@ -3,6 +3,7 @@ background-color: #fff;
 color: #2255AA;
 font-family: "Verdana", "Liberation";
 font-size: 16px;
+overflow: hidden;
 }
 header{
 width: 100%;
@@ -21,10 +22,11 @@ margin: 4px 0px 4px 0px;
 }
 section{
 width: 77%;
-height: 120px;
+text-align: center;
 display: block;
 float: right;
 margin: 4px 0px 4px 4px;
+position: relative;
 }
 footer{
 width: 100%;
@@ -56,12 +58,11 @@ color: #DD0000;
     font-size: 14px;
     padding-top: 15px;
     border-top: 3px solid;
-    
-
 }
-p{
+span{
     color: #FF0000;
 }
 .textoNormal{
-    text-align: justify;
+    display: inline-block;
+    text-align: center;
 }
