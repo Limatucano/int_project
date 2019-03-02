@@ -10,6 +10,7 @@ header{
     height: 60px;
     display: block;
     margin-bottom: 15px;
+    overflow: hidden;
 }
 nav{
     width: 20%;
@@ -73,11 +74,13 @@ li ul li{
     text-align: justify;
 }
 .imgDest{
-    float: right;
-    padding-bottom: 10px;
-    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+   float: right;
+    padding-bottom: 28px;
+    padding-right: 20px;
     
 }
-ol{
-    overflow: hidden;
+.im{
+    margin-bottom: 35px;
 }
