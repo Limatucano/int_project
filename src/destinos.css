@@ -63,8 +63,9 @@ span{
     text-align: center;
     
 }
-.listaDest{
+.listaDest {
     text-align: justify;
+    
     
 }
 li ul li{
@@ -72,5 +73,11 @@ li ul li{
     text-align: justify;
 }
 .imgDest{
-  display: inline-block
+    float: right;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    
+}
+ol{
+    overflow: hidden;
 }
