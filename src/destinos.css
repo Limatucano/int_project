@@ -20,7 +20,6 @@ nav{
 }
 section{
     width: 77%;
-    text-align: center;
     display: block;
     float: right;
     margin: 4px 0px 4px 4px;
@@ -85,3 +84,48 @@ li ul li{
 .im{
     margin-bottom: 35px;
 }
+.destac{
+    color:red;
+  }
+  .linImgPac{
+    text-align: center;
+    font-weight: bold;
+    background-color: #FCFC99; 
+    
+  }
+  .colLegPac{
+    text-align: left;
+    font-weight: bold;
+    background-color: #F8F858;
+  }
+  .tabPac th{
+    border: 1px solid;
+    padding: 10px;
+  }
+  .tabPac td{
+    border: 1px solid;
+    padding: 10px;
+  }
+  .tabPac{
+    border: solid 1px;
+    border-collapse: separate;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .tabInterna{
+      border: none;
+      width: 100%;
+  }
+  .tabInterna td{
+      border: none;
+      text-align: left;
+      padding: 1px;
+  }
+  .tabInterna th{
+      border: none;
+      text-align: left;
+      padding: 1px;
+  }
+ .preco{
+     color:red;
+ }
