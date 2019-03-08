@@ -59,3 +59,55 @@ body{
     span{
         color: #FF0000;
     }
+    form{
+        float: right;
+        margin-bottom: 14px;
+        overflow: hidden;
+    }
+    fieldset{
+        background-color: #F8F858;
+        text-align: left;
+    }
+    label{
+        display: block;
+        float: left;
+    }
+    #benviar{
+        margin-top: 16px;
+        float: right;
+        margin-right: 8px;
+    } 
+    #blimpar {
+        margin-top: 16px;
+        float: right;
+   }
+   #cnasc {
+       width: 22px;
+   }
+   #cano{
+       width: 44px;
+   }
+   #cemail, #cnome{
+       width: 360px;
+       float: left;
+   }
+   #csenha , #ccpf, #ctelef, #ccel{
+       width: 120px;
+   }
+   #cconfirm{
+       width: 90px;
+       float: right;
+   }
+    .col1{
+        
+     }
+    .col2{
+         text-align: right;
+         float: right;
+    }
+    #cemail, #cnome,#csenha , #ccpf, #ctelef, #ccel{
+        
+    }
+    fieldset #sexo{
+        float: right;
+    }

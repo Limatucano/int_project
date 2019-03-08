@@ -22,7 +22,29 @@
            </ul>
        </nav> 
        <section>
+          <form>
+            <fieldset id="identificacao">
+         <legend>Dados de Identificação</legend>
+           <label for="cemail" class="col1">Email:</label><input type="text" name="temail" id="cemail" required><br><br>
+           <label for="csenha" class="col1">Senha:</label><input type="password" name="tsenha" id="csenha"required>
+            <label for="cconfirm" class="col2">Confirme:</label><input type="password" name="tconfirm" id="cconfirm" required>
+            </fieldset>
+            <fieldset id="pessoais">
+           <legend>Dados Pessoais</legend>
+          <label for="cnome" class="col1">Nome:</label><input type="text" name="tnome" id="cnome" required><br><br>
+           <label for="ccpf" class="col1">Cpf:</label><input type="text" name="tcpf" id="ccpf" required> 
+           <label for="cnasc" class="col2">Nasc.:</label><input type="text" name="tdia" id="cnasc">/<input type="text" name="tmes" id="cnasc">/<input type="text" name="tano" id="cano"></br>
+           <label for="ctelef" class="col1">Telef.:</label><input type="text" name="ttelef" id="ctelef"></br>
+           <label for="ccel" class="col1">Celular:</label><input type="text" name="tcel" id="ccel" required>
+           <fieldset id="sexo"><legend>Sexo</legend> 
+            <input type="radio" name="tsexo" id="cmasc"> <label for="cmasc"> Masculino</label><br/>
+            <input type="radio" name="tsexo" id="cfem"><label for="cfem"> Feminino</label>
+        </fieldset>
+            </fieldset>
+            <input type="button" value="Limpar" id="blimpar">
+            <input type="submit" value="Enviar" id="benviar">
            
+        </form> 
        </section>
        <footer>
            <div class="ender">
