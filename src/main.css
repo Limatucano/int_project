@@ -39,7 +39,8 @@ a:visited{
 color: #DD0000;
 }
 .imgLogo{
-    border-bottom: solid 3px;   
+    border-bottom: solid 3px;  
+    color: #2255AA;
 }
 .menu{
     color:#FF0000;

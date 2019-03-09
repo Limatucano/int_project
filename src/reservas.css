@@ -1,4 +1,4 @@
-body{
+    body{
     background-color: #fff;
     color: #2255AA;
     font-family: 'Verdana', 'Liberation';
@@ -39,7 +39,8 @@ body{
     color: #DD0000;
     }
     .imgLogo{
-        border-bottom: solid 3px;   
+        border-bottom: solid 3px; 
+        color: #2255AA;  
     }
     .menu{
         color:#FF0000;
@@ -58,4 +59,81 @@ body{
     }
     span{
         color: #FF0000;
+    }
+    fieldset{
+        background-color: #F8F858;
+        text-align: left;
+    }
+    #ridentificacao{
+        clear: both;
+    }
+    #passeio{
+        height: 260px;
+        float: left;
+        width: 42%;
+    }
+    #pag{
+        height: 260px;
+       float: right;
+       width: 48%;
+        
+    }
+    #cmail{
+        width: 300px;
+        float: left;
+    }
+    #pass{
+        width: 120px;
+    }
+    [for*="cpass"]{
+        margin-left: 26px;
+        width: 60px;
+    }
+    [for*="cmail"]{
+        width: 60px;
+    }
+    #benv{
+    margin-right: 8px;
+    margin-top: 16px;
+    float: right;
+    }
+    #blimp{
+    float: right;
+    margin-top: 16px;
+    }
+    form{
+    margin-right: 16px;
+    overflow: hidden;
+    }
+    #tano{
+    width: 44px;
+    }
+    #tmes{
+    margin-left: 4px;
+    width: 22px;
+    }
+    label:not(.col){
+    display: block;
+    float: left;
+    }
+    #cd, #ca{
+    width: 190px;
+    }
+    .eda{
+    width: 60px;
+    }
+    .ctq{
+    width: 187px;
+    }
+    #cvalue{
+        width: 120px;
+    }
+    [for*="cvalue"]{
+        width: 132px;
+    }
+    #cpac{
+        width: 209px;
+    }
+    #cnumber{
+        width: 120px;
     }

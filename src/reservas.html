@@ -9,7 +9,7 @@
     </head>
     <body>
         <header>
-            <img class="imgLogo" src="../documentation/img/PeNaEstradaDeitado.png">
+            <a href="main.html"><img class="imgLogo" src="../documentation/img/PeNaEstradaDeitado.png"></a>
         </header>
         <nav>
             <ul>
@@ -22,7 +22,56 @@
             </ul>
         </nav>
         <section>
-            
+            <form>
+                <fieldset id="ridentificacao">
+                    <legend>Dados de Identificação</legend>
+                    <br><label for="cmail" class="eda">Email: </label><input type="text" name="tmail" id="cmail">
+                    <label for="cpass" >Senha: </label><input type="password" name="tpass" id="cpass">
+                </fieldset>
+                <fieldset id="passeio">
+                    <legend>Passeio Escolhido</legend>
+                    <br><label for="cd" class="eda">De</label><input type="text" name="td" id="cd"><br><br>
+                    <label for="ca" class="eda">até</label><input type="text" name="ta" id="ca"><br><br>
+                    <label for="ctq" class="ctq">Tipo de Quarto:</label>
+                    <select name="ttq" id="ctq">
+                        <option>---</option>
+                        <option>Duplo</option>
+                        <option>Triplo</option>
+                        <option>Múltiplo</option> 
+                    </select><br><br>
+                    <label for="cpac">Pacote:</label>
+                    <select name="tpac" id="cpac">
+                        <option>---</option>
+                        <optgroup label="Nacional">
+                            <option>Arraial da Ajuda</option>
+                            <option>Ibitipoca</option>
+                            <option>Visconde de Mauá</option>
+                        </optgroup>
+                        <optgroup label="Internacional">
+                            <option>Colonia de Sacramento</option>
+                            <option>Deserto de Atacama</option>
+                            <option>Machu picchu</option>
+                        </optgroup>
+                    </select><br><br>
+                    <label for="cvalue">Valor: R$ </label><input type="text" name="tvalue" id="cvalue" readonly> 
+                </fieldset>
+                <fieldset id="pag">
+                    <legend>Forma de Pagamento</legend><br>
+                    <input type="radio" name="fp" id="ccartao"><label for="ccartao" class="col">Cartão</label>
+                    <input type="radio" name="fp" id="ccheque"><label for="ccheque" class="col">Cheque</label>
+                    <input type="radio" name="fp" id="cdinheiro"><label for="cdinheiro" class="col">Dinheiro</label><br><br>
+                    <fieldset id="dadoscartao">
+                        <legend>Dados do Cartão</legend>
+                        <input type="radio" name="dc" id="cvisa"><img src="../documentation/img/visa.png" id="cvisa">
+                        <input type="radio" name="dc" id="cmaster"><img src="../documentation/img/master.png" id="cmaster">
+                        <input type="radio" name="dc" id="camex"><img src="../documentation/img/amex.png" id="camex"></br><br>
+                        <label for="cval" class="eda">Validade:</label><input type="text" name="cmes" id="tmes"> / <input type="text" name="cano" id="tano"><br><br>
+                        <label for="cnumber" class="eda">Numero: </label><input type="text" name="tnumber" id="cnumber">
+                    </fieldset>
+                </fieldset>
+                <input type="button" value="Limpar" id="blimp">
+                <input type="submit" value="Enviar" id="benv">
+            </form>
         </section>
         <footer>
             <div class="ender">

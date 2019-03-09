@@ -39,7 +39,8 @@ body{
     color: #DD0000;
     }
     .imgLogo{
-        border-bottom: solid 3px;   
+        border-bottom: solid 3px;
+        color: #2255AA;   
     }
     .menu{
         color:#FF0000;
@@ -63,12 +64,14 @@ body{
         float: right;
         margin-bottom: 14px;
         overflow: hidden;
+       
     }
     fieldset{
         background-color: #F8F858;
         text-align: left;
+        
     }
-    label{
+    label:not(.sex){
         display: block;
         float: left;
     }
@@ -95,19 +98,30 @@ body{
        width: 120px;
    }
    #cconfirm{
-       width: 90px;
+       width: 120px;
        float: right;
    }
     .col1{
-        
+        width: 70px;
      }
     .col2{
          text-align: right;
-         float: right;
-    }
-    #cemail, #cnome,#csenha , #ccpf, #ctelef, #ccel{
-        
+         display: inline-block;
+         margin-right: 4px;
+
     }
     fieldset #sexo{
         float: right;
     }
+    #ccpf, #csenha{
+        float: left;
+    }
+   [for*="cconfirm"]{
+      width: 90px;
+   }
+   [for*="cnasc"]{
+       width: 90px;
+   }
+   fieldset #sexo{
+       margin-top: 10px;
+   }
