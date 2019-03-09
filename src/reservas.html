@@ -23,18 +23,18 @@
         </nav>
         <section>
             <form>
-                <fieldset id="ridentificacao">
+                <fieldset id="ridentificacao"><!--conjunto de campo de identificação-->
                     <legend>Dados de Identificação</legend>
-                    <br><label for="cmail" class="eda">Email: </label><input type="text" name="tmail" id="cmail">
-                    <label for="cpass" >Senha: </label><input type="password" name="tpass" id="cpass">
+                    <br><label for="cmail" class="eda">Email: </label><input type="text" name="tmail" id="cmail"><!--label e caixa de texto para email-->
+                    <label for="cpass" >Senha: </label><input type="password" name="tpass" id="cpass"><!--label e caixa de texto para senha-->
                 </fieldset>
-                <fieldset id="passeio">
+                <fieldset id="passeio"><!--conjunto de campo de passeio escolhido-->
                     <legend>Passeio Escolhido</legend>
-                    <br><label for="cd" class="eda">De</label><input type="text" name="td" id="cd"><br><br>
-                    <label for="ca" class="eda">até</label><input type="text" name="ta" id="ca"><br><br>
+                    <br><label for="cd" class="eda">De</label><input type="text" name="td" id="cd"><br><br><!--class=eda (e=email,d=de,a=ate)--><!--campo DE-->
+                    <label for="ca" class="eda">até</label><input type="text" name="ta" id="ca"><br><br><!--campo ATE-->
                     <label for="ctq" class="ctq">Tipo de Quarto:</label>
-                    <select name="ttq" id="ctq">
-                        <option>---</option>
+                    <select name="ttq" id="ctq"><!--campo de seleção tipo de quarto-->
+                        <option>---</option><!--opções selecionaveis-->
                         <option>Duplo</option>
                         <option>Triplo</option>
                         <option>Múltiplo</option> 
@@ -42,7 +42,7 @@
                     <label for="cpac">Pacote:</label>
                     <select name="tpac" id="cpac">
                         <option>---</option>
-                        <optgroup label="Nacional">
+                        <optgroup label="Nacional"><!--optgroup= grupo de opções, NÃO SELECIONAVEL-->
                             <option>Arraial da Ajuda</option>
                             <option>Ibitipoca</option>
                             <option>Visconde de Mauá</option>
@@ -53,7 +53,7 @@
                             <option>Machu picchu</option>
                         </optgroup>
                     </select><br><br>
-                    <label for="cvalue">Valor: R$ </label><input type="text" name="tvalue" id="cvalue" readonly> 
+                    <label for="cvalue">Valor: R$ </label><input type="text" name="tvalue" id="cvalue" readonly><!--Apenas leitura, dará o valor segundo função no JS-->
                 </fieldset>
                 <fieldset id="pag">
                     <legend>Forma de Pagamento</legend><br>
@@ -65,13 +65,13 @@
                         <input type="radio" name="dc" id="cvisa"><img src="../documentation/img/visa.png" id="cvisa">
                         <input type="radio" name="dc" id="cmaster"><img src="../documentation/img/master.png" id="cmaster">
                         <input type="radio" name="dc" id="camex"><img src="../documentation/img/amex.png" id="camex"></br><br>
-                        <label for="cval" class="eda">Validade:</label><input type="text" name="cmes" id="tmes"> / <input type="text" name="cano" id="tano"><br><br>
+                        <label for="cval" class="eda">Validade:</label><input type="text" name="cmes" id="tmes" maxlength="2"> / <input type="text" name="cano" id="tano" maxlength="4"><br><br>
                         <label for="cnumber" class="eda">Numero: </label><input type="text" name="tnumber" id="cnumber">
                     </fieldset>
-                </fieldset>
+                </fieldset><br><br>
                 <input type="button" value="Limpar" id="blimp">
                 <input type="submit" value="Enviar" id="benv">
-            </form>
+            </form>           
         </section>
         <footer>
             <div class="ender">
