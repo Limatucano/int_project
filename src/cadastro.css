@@ -31,7 +31,7 @@ body{
     height: 60px;
     clear: both;
     }
-    ul li a{
+    a{
     text-decoration: none; 
     color: #FF0000; 
     }

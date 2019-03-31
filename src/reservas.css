@@ -31,7 +31,7 @@
     height: 60px;
     clear: both;
     }
-    ul li a{
+    a{
     text-decoration: none; 
     color: #FF0000; 
     }
@@ -139,4 +139,8 @@
     }
     .vn{
         width: 80px;
+    }
+    .btn{
+        float: right;
+        clear: both;
     }

@@ -31,10 +31,11 @@ width: 100%;
 height: 60px;
 clear: both;
 }
-ul li a{
+a{
 text-decoration: none; 
 color: #FF0000; 
 }
+
 a:visited{
 color: #DD0000;
 }
@@ -60,7 +61,7 @@ color: #DD0000;
 span{
     color: #FF0000;
 }
-.textoNormal{
+.apres{
     display: inline-block;
     text-align: center;
 }
